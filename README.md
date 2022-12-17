@@ -1,2 +1,2 @@
-# Usability-Hub-Clone
-Responsive clone of Usability Hub website.
+# Usability-Hub-Landing-Page-Clone
+Responsive clone of landing page of Usability Hub website.
