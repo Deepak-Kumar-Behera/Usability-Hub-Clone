@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
-
+ 
 /* resets */
 
 * {
@@ -407,19 +407,34 @@ footer {
 .subfooter {
     background-color: #b9cde4;
     padding: var(--padding-inline-section);
-    max-height: 100%vh;
+    max-height: 100%;
 } 
 
 .sub-footer-container {
-    justify-content: center;
-    gap: 30px;
+    justify-content: space-between;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
 .sub-footer-container img {
     width: 20px;
+
 }
 
 .sub-footer-container img:hover {
     background-color: #4fb3d4;
+}
+
+.sub-footer-text {
+    justify-content: center;
+    gap: 20px;
+}
+
+.sub-footer-text a {
+    text-align: center;
+}
+
+.sub-footer-icons {
+    justify-content: space-evenly;
+    width: 25%;
 }
